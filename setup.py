@@ -17,7 +17,7 @@ test_requirements = [
 
 setup(
     name='charlesbot-broadcast-message',
-    version='0.2.1',
+    version='0.2.2',
     description="Charlesbot Broadcast Message Plugin",
     long_description=readme,
     author="Marvin Pinto",

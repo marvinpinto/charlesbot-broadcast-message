@@ -1,6 +1,6 @@
-===============================
+===================================
 Charlesbot Broadcast Message Plugin
-===============================
+===================================
 
 .. image:: https://img.shields.io/travis/marvinpinto/charlesbot-broadcast-message/master.svg?style=flat-square
     :target: https://travis-ci.org/marvinpinto/charlesbot-broadcast-message

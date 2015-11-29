@@ -12,7 +12,7 @@ Charlesbot Broadcast Message Plugin
     :target: LICENSE.txt
     :alt: Software License
 
-A Charlesbot__ plugin to do a really awesome thing!
+A Charlesbot__ plugin that sends out a nifty broadcast message!
 
 __ https://github.com/marvinpinto/charlesbot
 
@@ -20,13 +20,16 @@ __ https://github.com/marvinpinto/charlesbot
 How does this work
 ------------------
 
-This plugin adds the following ``!help`` targets:
+This plugin adds the following ``!help`` target:
 
 .. code:: text
-    !command - Do a thing!
 
-TODO: Fill in a description about what this plugin does and how it works.
-Screenshots are helpful, too!
+    !wall <msg> - Broadcast a message to all channels I'm a part of
+
+Whenever a person issues a ``!wall`` command, this plugin will broadcast that
+message to all the channels that Charlesbot is currently in.
+
+.. image:: https://raw.githubusercontent.com/marvinpinto/charlesbot-broadcast-message/master/images/wall.png
 
 
 Installation
@@ -50,8 +53,6 @@ entry to the ``main`` section:
     main:
       enabled_plugins:
         - 'charlesbot_broadcast_message.broadcastmessage.BroadcastMessage'
-
-TODO: If there is any more configuration, mention it here.
 
 Sample config file
 ~~~~~~~~~~~~~~~~~~

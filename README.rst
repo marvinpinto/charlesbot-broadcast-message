@@ -52,7 +52,7 @@ entry to the ``main`` section:
 
     main:
       enabled_plugins:
-        - 'charlesbot_broadcast_message.broadcastmessage.BroadcastMessage'
+        - 'charlesbot_broadcast_message.broadcast_message.BroadcastMessage'
 
 Sample config file
 ~~~~~~~~~~~~~~~~~~
@@ -62,7 +62,7 @@ Sample config file
     main:
       slackbot_token: 'xoxb-1234'
       enabled_plugins:
-        - 'charlesbot_broadcast_message.broadcastmessage.BroadcastMessage'
+        - 'charlesbot_broadcast_message.broadcast_message.BroadcastMessage'
 
 
 License
